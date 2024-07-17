@@ -14,9 +14,6 @@ scrape_configs:
         - name: tag:aws:autoscaling:groupName
           values:
           - Infra-ECS-Cluster-intern-real-final-ecs-ec10d565-ECSAutoScalingGroup-gMfkkSkZqTpM
-        - name: tag:intern
-          values:
-          - hi
   - job_name: ecs_CAdvisor
     ec2_sd_configs:
       - port: 9200 # referred to cAdvisor exposed port
@@ -25,7 +22,4 @@ scrape_configs:
         - name: tag:aws:autoscaling:groupName
           values:
           - Infra-ECS-Cluster-intern-real-final-ecs-ec10d565-ECSAutoScalingGroup-gMfkkSkZqTpM
-        - name: tag:intern
-          values:
-          - hi
 
