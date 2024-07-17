@@ -11,7 +11,7 @@
                 "essential": false,
                 "command": [
                     "wget",
-                    "https://raw.githubusercontent.com/cj-intern/ecs-prometheus-grafana/main/prometheus.yml?token=GHSAT0AAAAAACUKQZMSY7WZ7WH2RXFGE4WYZUVBFEA",
+                    "https://raw.githubusercontent.com/cj-intern/ecs-prometheus-grafana/main/prometheus.yml",
                     "-P",
                     "/mnt"
                 ],
